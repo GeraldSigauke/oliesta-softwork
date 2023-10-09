@@ -22,6 +22,9 @@ import FooterComponent from './pages/FooterComponent';
 import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import BloggingPage from './pages/BloggingPage';
+import Blog1 from './components/Blog1';
+import Blog2 from './components/Blog2';
+import Blog3 from './components/Blog3';
 
 // Dark and Light Theme Stuff:
 
@@ -48,6 +51,9 @@ function App() {
                 <Route path='/testimonials' element={<TestimonialsPage />} />
                 <Route path='/contactus' element={<ContactPage />} />
                 <Route path='/blog' element={<BloggingPage />} />
+                <Route path='/blog1' element={<Blog1 />} />
+                <Route path='/blog2' element={<Blog2 />} />
+                <Route path='/blog3' element={<Blog3 />} />
             </Route>              
             </Routes>
           </BrowserRouter>

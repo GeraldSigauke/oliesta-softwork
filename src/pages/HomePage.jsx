@@ -24,7 +24,7 @@ const HomePage = () => {
                     </div>
                   </h1>
                   <NavLink
-                    to='/about'
+                    to='/contactus'
                   >
                     <button
                     class="inline-block px-7 py-3 mr-2 bg-[#2c5282] text-white font-medium text-sm leading-snug uppercase rounded shadow-md focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"

@@ -17,5 +17,6 @@ import sof from '../assets/sof.png';
 import sof2 from '../assets/sof2.png';
 import logo_hpid from '../assets/logo_hpid.png';
 import lhpid from '../assets/lhpid.png';
+import about_pic from '../assets/pexels-fauxels-3182774.jpg';
 
-export default { logo, logo_oac, logo_of, logo_hpid, spid, spid2, soac, soac2, sos, sos2, sof, sof2, l_oac, l_hpid, l_of, hero_pic, hero_pic2, oflt, lhpid };
+export default { logo, logo_oac, logo_of, logo_hpid, spid, spid2, soac, soac2, sos, sos2, sof, sof2, l_oac, l_hpid, l_of, hero_pic, hero_pic2, oflt, lhpid, about_pic };

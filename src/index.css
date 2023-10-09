@@ -238,6 +238,10 @@ body {
   color: #2c5282;
 }
 
+#light #text4 {
+  color: #FFFFFF;
+}
+
 #light #lg {
   background-color: #ffffff;
 }
@@ -315,6 +319,10 @@ body {
 
 #dark #text3 {
   color:  gray;
+}
+
+#dark #text4 {
+  color:  #000000;
 }
 
 #dark #name {
