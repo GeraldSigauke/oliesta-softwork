@@ -28,7 +28,7 @@ const ProjectsPage = () => {
       <div class="container my-24 px-6 mx-auto">
         <section class="mb-20 text-center">
           <h2 class="text-3xl font-bold mb-5 text-center">
-            Projects I am <u class="text-[#2c5282]">proud</u> of
+            Projects We Are <u class="text-[#2c5282]">Proud</u> Of
           </h2>
 
           {buttons &&

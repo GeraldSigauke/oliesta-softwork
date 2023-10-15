@@ -1,5 +1,7 @@
-import React from 'react'
-import NavbarPadding from './NavbarPadding'
+import React from 'react';
+import NavbarPadding from './NavbarPadding';
+import { BsArrowLeft } from 'react-icons/bs';
+import { NavLink, Link } from 'react-router-dom';
 
 const Blog1 = () => {
   return (
@@ -10,6 +12,14 @@ const Blog1 = () => {
         
         {/* <!-- Section: Design Block --> */}
         <section class="mb-32 text-gray-800">
+          <NavLink to="/blog">
+            <div className="flex mb-5">
+              <BsArrowLeft className='w-7 h-7 mx-3' /> 
+              <div className="text-lg  text-[#2c5282]">
+                Go Back to Blogs
+              </div>
+            </div>
+          </NavLink>
           <img src="https://mdbootstrap.com/img/new/standard/city/028.jpg" class="w-full shadow-lg rounded-lg mb-6" alt="" />
 
           <div class="flex items-center mb-6">

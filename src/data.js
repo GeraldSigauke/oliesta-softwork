@@ -76,6 +76,15 @@ export const ps = [
     desc: 'My old personal portfolio web app. I used React Js, Framer Motion, Javascript and SCSS for the frontend. I used Sanity IO for the backend.',
     url: 'https://oliestafashions.netlify.app/',
   },
+  {
+    id: 5,
+    img: images.sof,
+    img2: images.sof2,
+    title: 'OLIESTA MART',
+    category: 'mobileApps',
+    desc: 'My old personal portfolio web app. I used React Js, Framer Motion, Javascript and SCSS for the frontend. I used Sanity IO for the backend.',
+    url: 'https://oliestafashions.netlify.app/',
+  },
 ];
 
 export const lps = [
@@ -126,6 +135,15 @@ export const testimonials = [
     profession: 'CEO',
     testimony:
       'I am pleased with the work Oliesta Softworks is doing for us.',
+    rating: '5',
+  },
+  {
+    id: 4,
+    img: images.om2,
+    name: 'Oliver',
+    profession: 'CEO',
+    testimony:
+      'We are beyond pleased with the work Oliesta Softworks is doing for us.',
     rating: '5',
   },
 ];
@@ -202,6 +220,11 @@ export const buttons = [
   {
     name: 'Any Other Web Apps',
     value: 'anyOtherWebApps',
+    marginBottom: 'bg-[#2c5282] hover:bg-blue-700 text-white font-bold px-4 py-2 rounded ml-[0.5%] mr-[0.5%] mb-10 lg:mb-10'
+  },
+  {
+    name: 'Mobile Apps',
+    value: 'mobileApps',
     marginBottom: 'bg-[#2c5282] hover:bg-blue-700 text-white font-bold px-4 py-2 rounded ml-[0.5%] mr-[0.5%] mb-10 lg:mb-10'
   },
 ];

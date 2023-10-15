@@ -6,13 +6,14 @@ import NavbarPadding from '../components/NavbarPadding';
 const HomePage = () => {
   return (
     <>
+    <div className="py-1"></div>
       <NavbarPadding />
       {/* <!-- Container for demo purpose --> */}
       <div id='home'>
         {/* <!-- Section: Design Block --> */}
         <section id='home' class="">
           <div
-            class="px-6 py-12 md:px-12 text-gray-800 text-center lg:text-left"
+            class="px-3 py-12 md:px-12 text-gray-800 text-center lg:text-left"
           >
             <div class="container mx-auto xl:px-32">
               <div class="grid lg:grid-cols-2 gap-12 flex items-center">

@@ -12,7 +12,7 @@ const ContentComponent = () => {
           <div class="flex flex-wrap">
             <div class="mb-12 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-5/12">
               <div class="flex lg:py-12">
-                <img src={ images.about_pic } className='rounded-md' />
+                <img src="https://images.pexels.com/photos/3182774/pexels-photo-3182774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className='rounded-md' />
               </div>
             </div>
 

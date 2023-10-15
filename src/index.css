@@ -198,6 +198,14 @@ body {
 
 /** Projects Page Ends Here */
 
+#go-up {
+  border-radius: 50%;
+}
+
+/** Blogs Starts Ends Here */
+
+/** Blogs Page Ends Here */
+
 @tailwind base;
 @tailwind Pages;
 @tailwind utilities;
@@ -408,7 +416,7 @@ body {
 
 #dark #innards2 {
   background-color: #2c5282;
-  color: #000;
+  color: #FFFFFF;
 }
 
 #dark #achievement-icon {
