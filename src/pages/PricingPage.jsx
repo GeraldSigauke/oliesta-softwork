@@ -117,7 +117,7 @@ const PricingPage = () => {
                     <strong>Any Other Web App</strong>
                   </p>
                   <h3 class="text-2xl mb-6">
-                    <strong>R4000.00</strong>
+                    <strong>R3750.00</strong>
                     <small class="text-gray-500 text-sm">/once off</small>
                   </h3>
 
@@ -259,7 +259,7 @@ const PricingPage = () => {
                     <strong>Any Other Combo</strong>
                   </p>
                   <h3 class="text-2xl mb-6">
-                    <strong>R7000.00</strong>
+                    <strong>R7500.00</strong>
                     <small class="text-gray-500 text-sm">/once off</small>
                   </h3>
 

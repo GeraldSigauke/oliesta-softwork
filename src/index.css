@@ -21,6 +21,28 @@
     cursor .4s step-end infinite alternate;
 }
 
+#light #go-up {
+  border-radius: 50%;
+}
+
+#dark #go-up {
+  border-radius: 50%;
+}
+
+#light #go-up:hover {
+  border-radius: 50%;
+  color: #FFFFFF;
+  background-color: #2C5282;  
+  transition: 0.3s;
+}
+
+#dark #go-up:hover {
+  border-radius: 50%;
+  color: #000000;
+  background-color: #2C5282;  
+  transition: 0.3s;
+}
+
 /* cursor blinking */
 @keyframes cursor {
   50% { border-color: transparent; }
@@ -197,10 +219,6 @@ body {
 }
 
 /** Projects Page Ends Here */
-
-#go-up {
-  border-radius: 50%;
-}
 
 /** Blogs Starts Ends Here */
 

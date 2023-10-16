@@ -22,7 +22,7 @@ const BloggingPage = () => {
           <div class="grid lg:grid-cols-3 gap-6 xl:gap-x-12">
 
             <div class="flex flex-wrap lg:flex-column mb-12">
-              <div class="grow-0 shrink-0 basis-auto w-full lg:w-12/12 lg:pr-6 mb-6 lg:mb-0">
+              <div class="grow-0 shrink-0 basis-auto w-full lg:w-12/12 mb-6 lg:mb-0">
                 <div
                   class="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg"
                   style={{ backgroundPosition: '50%' }}
@@ -76,7 +76,7 @@ const BloggingPage = () => {
             </div>
 
             <div class="flex flex-wrap lg:flex-column mb-12">
-              <div class="grow-0 shrink-0 basis-auto w-full lg:w-12/12 lg:pl-6 mb-6 lg:mb-0">
+              <div class="grow-0 shrink-0 basis-auto w-full lg:w-12/12 lg:p-6 mb-6 lg:mb-0">
                 <div
                   class="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg"
                   style={{ backgroundPosition: '50%' }}
@@ -130,7 +130,7 @@ const BloggingPage = () => {
             </div>
 
             <div class="flex flex-wrap lg:flex-column mb-12">
-              <div class="grow-0 shrink-0 basis-auto w-full lg:w-12/12 lg:pr-6 mb-6 lg:mb-0">
+              <div class="grow-0 shrink-0 basis-auto w-full lg:w-12/12 lg:p-6 mb-6 lg:mb-0">
                 <div
                   class="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg"
                   style={{ backgroundPosition: '50%' }}
