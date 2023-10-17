@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const ReasonsComponent = () => {
   return (
@@ -28,7 +29,7 @@ const ReasonsComponent = () => {
                     </h3>
                     <h5 class="mb-4 text-lg font-medium text-white">Clients</h5>
                     <p class="text-white dark:text-white">
-                    All four of our clients gave our work glowing reviews. You may know some of them. Click here to see what they thought of our work.
+                    All four of our clients gave our work glowing reviews. You may know some of them. Click <NavLink to="/testimonials"><strong>here</strong></NavLink> to see what they thought of our work.
                     </p>
                 </div>
                 </div>
@@ -77,7 +78,7 @@ const ReasonsComponent = () => {
                     </h3>
                     <h5 class="mb-4 text-lg font-medium">Projects</h5>
                     <p id='innards2' class="text-neutral-500 dark:text-neutral-300">
-                    To see all four of our projects so far, click here.
+                    To see all four of our projects so far, click <NavLink to="/portfolio"><strong>here</strong></NavLink>.
                     </p>
                 </div>
                 </div>

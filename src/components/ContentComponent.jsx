@@ -6,7 +6,7 @@ const ContentComponent = () => {
   return (
     <>
       {/* <!-- Container for demo purpose --> */}
-      <div class="container my-24 mx-auto md:px-6">
+      <div id="content" class="container my-24 mx-auto md:px-6">
         {/* <!-- Section: Design Block --> */}
         <section class="mb-12">
           <div class="flex flex-wrap">
@@ -80,6 +80,7 @@ const ContentComponent = () => {
               </div>
             </div>
           </div>
+        <div id="reasons" className=""></div>
         </section>
         {/* <!-- Section: Design Block --> */}
       </div>

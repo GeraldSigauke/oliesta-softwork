@@ -33,7 +33,7 @@ const Blog1 = () => {
 
           <h1 class="font-bold text-3xl mb-6">A strong online presence gives your business the following benefits</h1>
 
-          <p>
+          <p class="text-gray-500">
             It Makes It Easier For Your Business to Showcase Its Products and Services. It Makes It Easier For Customers to Find Your Business. It Makes It Easier To Strengthen Your Brand By Giving Your Business An Internet Identity Or Personality. It Makes It Easier To Market Your Company’s Brand. It Makes It Easier For Your Business to Operate 24 Hours A Day, Seven Days A Week. As You Can Deduce, This Significantly Increases Your Business' Profit Margins. It Makes It Easier For Your Business To Build Relationships. It Makes It Easier To Extend The Reach Of Your Business. It is The First Step Towards Attaining A Global Business Status. It Provides Another Official Channel Of Communication To Reach Customers. A Channel With Global Reach. A Channel Which Never Sleeps.
           </p>
         </section>

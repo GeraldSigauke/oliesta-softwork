@@ -33,7 +33,7 @@ const Blog3 = () => {
 
           <h1 class="font-bold text-3xl mb-6">How we Can Help You</h1>
 
-          <p>
+          <p class="text-gray-500">
             A strong online presence is more than just having a good social
             media presence. You{' '}
             <span className="text-[#2c5282] font-bold">need</span> a

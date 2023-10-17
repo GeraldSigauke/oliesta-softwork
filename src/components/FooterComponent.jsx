@@ -105,7 +105,7 @@ const FooterComponent = () => {
               </a>
                 <NavLink to = "/">OLIESTA SOFTWORKS</NavLink>
               </h6>
-              <p>Let's Get Your Business Online. Partner With Us For All Your Software Needs. Reach Out To Us For Tailer Made Offers.</p>
+              <p>Let's Get Your Business Online. Partner With Us For All Your Software Needs. Reach Out To Us For Tailor Made Offers.</p>
             </div>
             {/* <!-- Products section --> */}
             <div class="">

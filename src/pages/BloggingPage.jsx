@@ -73,10 +73,34 @@ const BloggingPage = () => {
                   {/* Personality. It Makes It Easier To Market Your Company’s Brand. It Makes It Easier For Your Business to Operate 24 Hours A Day, Seven Days A Week. As You Can Deduce, This Significantly Increases Your Business' Profit Margins. It Makes It Easier For Your Business To Build Relationships. It Makes It Easier To Extend The Reach Of Your Business. It is The First Step Towards Attaining A Global Business Status. It Provides Another Official Channel Of Communication To Reach Customers. A Channel With Global Reach. A Channel Which Never Sleeps. */}
                 </p>
               </div>
+              <div 
+                style={{
+                  display: "flex",
+                  justifyContent: "right"
+                }}
+                className="mt-8 flex justify-items-center"
+              >
+                <NavLink
+                  style={{
+                    borderRadius: "20px",
+                    paddingLeft: "18px",
+                    paddingRight: "18px",
+                    paddingTop: "8px",
+                    paddingBottom: "8px"
+                  }}
+                  id="blue-button"
+                  to="/blog1"
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                  class="inline-block px-6 py-2.5 bg-[#2c5282] text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-[#2c3282] hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Read More
+                </NavLink>
+              </div>
             </div>
 
             <div class="flex flex-wrap lg:flex-column mb-12">
-              <div class="grow-0 shrink-0 basis-auto w-full lg:w-12/12 lg:p-6 mb-6 lg:mb-0">
+              <div class="grow-0 shrink-0 basis-auto w-full lg:w-12/12 lg:w-12/12 mb-6 lg:mb-0">
                 <div
                   class="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg"
                   style={{ backgroundPosition: '50%' }}
@@ -127,10 +151,34 @@ const BloggingPage = () => {
                   dollar company. If your ambition is for your business to be just as big -- or bigger -- taking his advice will serve as more than just taking a step in the right direction. Netflix grew by taking this route. They went from being your regular mom and pop's DVD rental shop to being the online streaming juggernaut it is today. Disney, HBO, etc. followed suit. Amazon gained its trillion dollar status through the power of the internet. Starting an ecommerce site broadened their reach beyond compare. In China, Alibaba has attained its peerless status the same way. */}
                 </p>
               </div>
+              <div 
+                style={{
+                  display: "flex",
+                  justifyContent: "right"
+                }}
+                className="mt-8 flex justify-items-center"
+              >
+                <NavLink
+                  style={{
+                    borderRadius: "20px",
+                    paddingLeft: "18px",
+                    paddingRight: "18px",
+                    paddingTop: "8px",
+                    paddingBottom: "8px"
+                  }}
+                  id="blue-button"
+                  to="/blog2"
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                  class="inline-block px-6 py-2.5 bg-[#2c5282] text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-[#2c3282] hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Read More
+                </NavLink>
+              </div>
             </div>
 
             <div class="flex flex-wrap lg:flex-column mb-12">
-              <div class="grow-0 shrink-0 basis-auto w-full lg:w-12/12 lg:p-6 mb-6 lg:mb-0">
+              <div class="grow-0 shrink-0 basis-auto w-full lg:w-12/12 lg:w-12/12 mb-6 lg:mb-0">
                 <div
                   class="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg"
                   style={{ backgroundPosition: '50%' }}
@@ -178,6 +226,30 @@ const BloggingPage = () => {
                   </span>{' '}
                   out: */}
                 </p>
+              </div>
+              <div 
+                style={{
+                  display: "flex",
+                  justifyContent: "right"
+                }}
+                className="mt-8 flex justify-items-center"
+              >
+                <NavLink
+                  style={{
+                    borderRadius: "20px",
+                    paddingLeft: "18px",
+                    paddingRight: "18px",
+                    paddingTop: "8px",
+                    paddingBottom: "8px"
+                  }}
+                  id="blue-button"
+                  to="/blog3"
+                  data-mdb-ripple="true"
+                  data-mdb-ripple-color="light"
+                  class="inline-block px-6 py-2.5 bg-[#2c5282] text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-[#2c3282] hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Read More
+                </NavLink>
               </div>
             </div>
           

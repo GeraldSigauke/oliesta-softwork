@@ -33,7 +33,7 @@ const Blog2 = () => {
 
           <h1 class="font-bold text-3xl mb-6">Billion Dollar Companies Agree</h1>
 
-          <p>
+          <p class="text-gray-500">
             Don't just take our word for it. One of the founders of
             Microsoft, and its CEO for 25 years, once said:{' '}
             <strong className="text-[#2c5282]">
