@@ -2,14 +2,20 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { images } from '../constants';
 import NavbarPadding from '../components/NavbarPadding';
+import { useAnimation, motion } from "framer-motion";
 
 const HomePage = () => {
   return (
     <>
     <div className="py-1"></div>
-      <NavbarPadding />
+      {/* <NavbarPadding /> */}
       {/* <!-- Container for demo purpose --> */}
-      <div id='home'>
+      <motion.div 
+        id='home'
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         {/* <!-- Section: Design Block --> */}
         <section id='home' class="">
           <div
@@ -64,7 +70,7 @@ const HomePage = () => {
           </div>
         </section>
         {/* <!-- Section: Design Block --> */}
-      </div>
+      </motion.div>
       {/* <!-- Container for demo purpose --> */}
     </>
   );

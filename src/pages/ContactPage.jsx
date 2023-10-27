@@ -2,12 +2,18 @@ import React from 'react'
 import ContactField from "../components/ContactField";
 import { contactField } from "../data";
 import NavbarPadding from '../components/NavbarPadding';
+import { useAnimation, motion } from "framer-motion";
 
 const ContactPage = () => {
   return (
     <>
-      <NavbarPadding />
-      <div class="container my-24 px-6 mx-auto" id='contactus'>
+      {/* <NavbarPadding /> */}
+      <motion.div 
+        class="container my-24 px-6 mx-auto" id='contactus'
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <h2 class="text-3xl font-bold text-center pt-5 dark:text-gray-800">
           Contact <u class="text-[#2c5282] dark:text-[#2c5282]">Us</u>
         </h2>
@@ -47,7 +53,7 @@ const ContactPage = () => {
             </form>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   )
 }

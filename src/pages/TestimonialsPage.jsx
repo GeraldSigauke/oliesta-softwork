@@ -30,7 +30,7 @@ SwiperCore.use([Autoplay]);
 const TestimonialsPage = () => {
   return (
     <>
-      <NavbarPadding />
+      {/* <NavbarPadding /> */}
       {/* <!-- Container for demo purpose --> */}
       <div class="container my-24 px-6 mx-auto">
 

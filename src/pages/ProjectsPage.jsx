@@ -5,6 +5,7 @@ import FilterPage from './FilterPage';
 import { buttons, ps } from "../data";
 import { getProject, filterProject } from "../services/services";
 import NavbarPadding from "../components/NavbarPadding";
+import { useAnimation, motion } from "framer-motion";
 
 const ProjectsPage = () => {
   const [item, setItem] = useState(ps);
@@ -24,8 +25,13 @@ const ProjectsPage = () => {
 
   return (
     <>
-      <NavbarPadding />
-      <div class="container my-24 px-6 mx-auto">
+      {/* <NavbarPadding /> */}
+      <motion.div 
+        class="container my-24 px-6 mx-auto"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <section class="mb-20 text-center">
           <h2 class="text-3xl font-bold mb-5 text-center">
             Projects We Are <u class="text-[#2c5282]">Proud</u> Of
@@ -100,7 +106,7 @@ const ProjectsPage = () => {
             
           </div>           */}
         </section>        
-      </div>      
+      </motion.div>      
     </>
   )
 }

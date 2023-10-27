@@ -21,12 +21,23 @@
     cursor .4s step-end infinite alternate;
 }
 
+/* cursor blinking */
+@keyframes cursor {
+  50% { border-color: transparent; }
+}
+
+/* typing effect */
+@keyframes typing {
+  from { width: 0 }
+}
+
 #light #go-up {
   border-radius: 50%;
 }
 
 #dark #go-up {
   border-radius: 50%;
+  background-color: #000000;
 }
 
 #light #go-up:hover {
@@ -41,16 +52,6 @@
   color: #000000;
   background-color: #2C5282;  
   transition: 0.3s;
-}
-
-/* cursor blinking */
-@keyframes cursor {
-  50% { border-color: transparent; }
-}
-
-/* typing effect */
-@keyframes typing {
-  from { width: 0 }
 }
 
 #light #white-button{
@@ -101,6 +102,27 @@
 
 
 /** About Page Starts Here */
+
+.typewriter2 {
+  display: inline-block;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+    typing 2s steps(6),
+    cursor .4s step-end infinite alternate;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 
 #light #ft-inner {
   border-radius: 50%;

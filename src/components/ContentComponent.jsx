@@ -1,17 +1,29 @@
 import React from 'react';
 import { images } from '../constants';
+import { useAnimation, motion } from "framer-motion";
+
 
 const ContentComponent = () => {
   const today = new Date();
   return (
     <>
       {/* <!-- Container for demo purpose --> */}
-      <div id="content" class="container my-24 mx-auto md:px-6">
+      <motion.div 
+        id="content" class="container my-24 mx-auto md:px-6"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         {/* <!-- Section: Design Block --> */}
         <section class="mb-12">
-          <div class="flex flex-wrap">
+          <motion.div class="flex flex-wrap">
             <div class="mb-12 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-5/12">
-              <div class="flex lg:py-12">
+              <div 
+                class="flex lg:py-12"                
+                initial={{ opacity: 0, y: '100vh' }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+              >
                 <img src="https://images.pexels.com/photos/3182774/pexels-photo-3182774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className='rounded-md' />
               </div>
             </div>
@@ -20,7 +32,9 @@ const ContentComponent = () => {
               <div
                 class="flex h-full items-center rounded-lg bg-[#2c5282] p-6 text-center text-white lg:pl-12 lg:text-left">
                 <div class="lg:pl-12">
-                  <h2 class="mb-8 text-3xl font-bold">Eat -> Sleep -> Code -> Repeat</h2>
+                  <h2 class="mb-1 text-3xl font-bold"><span style={{
+                    width: "345px"
+                  }} className=''>Eat -> Sleep -> Code -> Repeat</span></h2>
                   <p class="mb-8 pb-2 lg:pb-0">
                 The year is { today.getFullYear() }. If your business doesn't already have a strong online presence, you are doing it wrong! What you are doing is the equivalent of driving a car with flat tyres. You are unwittingly sabotaging your own business. Let us help you.
                   </p>
@@ -79,11 +93,11 @@ const ContentComponent = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         <div id="reasons" className=""></div>
         </section>
         {/* <!-- Section: Design Block --> */}
-      </div>
+      </motion.div>
       {/* <!-- Container for demo purpose --> */}
     </>
   )

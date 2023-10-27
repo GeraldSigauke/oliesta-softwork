@@ -10,9 +10,9 @@ const NavbarComponent = () => {
   const { toggleTheme, theme } = useContext(ThemeContext);
 
   const [navbar, setNavbar] = useState(false);
-
+    // fixed top-0 z-50
   return (
-    <nav id='navbar' className="bg-[#2c5282] text-white w-full shadow fixed top-0 z-50">
+    <nav id='navbar' className="bg-[#2c5282] text-white w-full shadow">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">

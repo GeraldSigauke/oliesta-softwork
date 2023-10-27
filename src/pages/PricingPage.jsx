@@ -8,13 +8,19 @@ import React from 'react';
 import PricingPoint from '../components/PricingPoint';
 import { lpp, ecp, mcsp } from '../data';
 import PricingFastTravelComponent from '../components/PricingFastTravelComponent';
+import { useAnimation, motion } from "framer-motion";
 
 const PricingPage = () => {
   return (
     <>
       <div id='web-app-pricing' className="py-1"></div>
       {/* <!-- Container for demo purpose --> */}
-      <div class="container my-24 px-6 mx-auto">
+      <motion.div 
+        class="container mt-6 px-6 mx-auto"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <div className=""></div>
         {/* <!-- Section: Design Block --> */}
         <section class="mb-32 text-gray-800">
@@ -301,7 +307,7 @@ const PricingPage = () => {
           </div>
         </section>
         {/* <!-- Section: Design Block --> */}
-      </div>
+      </motion.div>
       {/* <!-- Container for demo purpose --> */}
       <PricingFastTravelComponent />
     </>

@@ -1,13 +1,19 @@
 import React from 'react';
 import NavbarPadding from '../components/NavbarPadding';
 import { NavLink, Link } from 'react-router-dom';
+import { useAnimation, motion } from "framer-motion";
 
 const BloggingPage = () => {
   return (
     <>
-      <NavbarPadding />
+      {/* <NavbarPadding /> */}
       {/* <!-- Container for demo purpose --> */}
-      <div class="container my-24 px-6 mx-auto">
+      <motion.div 
+        class="container my-24 px-6 mx-auto"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         {/* <!-- Section: Design Block --> */}
         <section class="mb-32 text-gray-800">
           <h2 class="text-3xl font-bold mb-12 text-center">
@@ -257,7 +263,7 @@ const BloggingPage = () => {
 
         </section>
         {/* <!-- Section: Design Block --> */}
-      </div>
+      </motion.div>
       {/* <!-- Container for demo purpose --> */}
     </>
   );
