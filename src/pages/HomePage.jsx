@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { images } from '../constants';
-import NavbarPadding from '../components/NavbarPadding';
 import { useAnimation, motion } from "framer-motion";
 
 const HomePage = () => {

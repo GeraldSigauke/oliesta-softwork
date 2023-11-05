@@ -1,12 +1,10 @@
 import React from 'react';
-import NavbarPadding from './NavbarPadding';
 import { BsArrowLeft } from 'react-icons/bs';
 import { NavLink, Link } from 'react-router-dom';
 
 const Blog2 = () => {
   return (
     <>
-    <NavbarPadding />
       {/* <!-- Container for demo purpose --> */}
       <div class="container my-24 px-6 mx-auto">
         

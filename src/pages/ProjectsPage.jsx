@@ -4,7 +4,6 @@ import Buttons from '../components/Buttons';
 import FilterPage from './FilterPage';
 import { buttons, ps } from "../data";
 import { getProject, filterProject } from "../services/services";
-import NavbarPadding from "../components/NavbarPadding";
 import { useAnimation, motion } from "framer-motion";
 
 const ProjectsPage = () => {
@@ -27,7 +26,7 @@ const ProjectsPage = () => {
     <>
       {/* <NavbarPadding /> */}
       <motion.div 
-        class="container my-24 px-6 mx-auto"
+        class="container mt-24 mb-12 px-6 mx-auto"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}

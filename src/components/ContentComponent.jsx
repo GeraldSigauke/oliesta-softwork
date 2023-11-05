@@ -9,7 +9,7 @@ const ContentComponent = () => {
     <>
       {/* <!-- Container for demo purpose --> */}
       <motion.div 
-        id="content" class="container my-24 mx-auto md:px-6"
+        id="content" class="container  mt-24 mb-12 mx-auto md:px-6"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}

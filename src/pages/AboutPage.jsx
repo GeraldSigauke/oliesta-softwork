@@ -1,5 +1,4 @@
 import React from 'react';
-import NavbarPadding from '../components/NavbarPadding';
 import ContentComponent from '../components/ContentComponent';
 import ReasonsComponent from '../components/ReasonsComponent';
 import AboutFastTravelComponents from '../components/AboutFastTravelComponents';

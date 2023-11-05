@@ -13,7 +13,7 @@ import { useAnimation, motion } from "framer-motion";
 const PricingPage = () => {
   return (
     <>
-      <div id='web-app-pricing' className="py-1"></div>
+      <div id='web-app-pricing' className=""></div>
       {/* <!-- Container for demo purpose --> */}
       <motion.div 
         class="container mt-6 px-6 mx-auto"
