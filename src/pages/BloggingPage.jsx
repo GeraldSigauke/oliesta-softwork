@@ -9,13 +9,13 @@ const BloggingPage = () => {
       {/* <NavbarPadding /> */}
       {/* <!-- Container for demo purpose --> */}
       <motion.div 
-        class="container my-24 px-6 mx-auto"
+        class="container mt-24 mb-20 px-6 mx-auto"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
         {/* <!-- Section: Design Block --> */}
-        <section class="mb-32 text-gray-800">
+        <section class=" text-gray-800">
           <h2 class="text-3xl font-bold mb-12 text-center">
             Why Your Business Needs A{' '}
             <u class="text-[#2c5282]">Strong Online Presence</u>
@@ -40,7 +40,7 @@ const BloggingPage = () => {
                     class="w-full"
                     alt="Louvre"
                   />
-                  <NavLink to="/blog1">
+                  <NavLink to="/blog1#top">
                     <div
                       class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
                       style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}

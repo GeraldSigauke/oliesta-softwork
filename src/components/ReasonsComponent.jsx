@@ -1,11 +1,16 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { useAnimation, motion } from "framer-motion";
 
 const ReasonsComponent = () => {
   return (
     <>
         {/* <!-- Container for demo purpose --> */}
-        <div class="container my-24 mx-auto md:px-6">
+        <motion.div class="container mb-24 mx-auto md:px-6"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+        >
         {/* <!-- Section: Design Block --> */}
         <section class="mb-32 text-center">
             <h2 class="mb-20 text-3xl font-bold">Why <u class="text-[#2c5282]">Work With Us</u>?</h2>
@@ -29,7 +34,7 @@ const ReasonsComponent = () => {
                     </h3>
                     <h5 class="mb-4 text-lg font-medium text-white">Clients</h5>
                     <p class="text-white dark:text-white">
-                    All four of our clients gave our work glowing reviews. You may know some of them. Click <NavLink to="/testimonials"><strong>here</strong></NavLink> to see what they thought of our work.
+                    All four of our clients gave our work glowing reviews. You may know some of them. Click <NavLink to="/testimonials#origin"><strong>here</strong></NavLink> to see what they thought of our work.
                     </p>
                 </div>
                 </div>
@@ -78,7 +83,7 @@ const ReasonsComponent = () => {
                     </h3>
                     <h5 class="mb-4 text-lg font-medium">Projects</h5>
                     <p id='innards2' class="text-neutral-500 dark:text-neutral-300">
-                    To see all four of our projects so far, click <NavLink to="/portfolio"><strong>here</strong></NavLink>.
+                    To see all four of our projects so far, click <NavLink to="/portfolio#origin"><strong>here</strong></NavLink>.
                     </p>
                 </div>
                 </div>
@@ -86,7 +91,7 @@ const ReasonsComponent = () => {
             </div>
         </section>
         {/* <!-- Section: Design Block --> */}
-        </div>
+        </motion.div>
         {/* <!-- Container for demo purpose --> */}
     </>
   )

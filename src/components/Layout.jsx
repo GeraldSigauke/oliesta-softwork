@@ -8,7 +8,7 @@ import GoToTheTopComponent from './GoToTheTopComponent';
 const Layout = () => {
   return (
     <>
-      {/* <NavTopComponent /> */}
+      <div id="origin" />
       <NavbarComponent />
         <Outlet />
         <GoToTheTopComponent />

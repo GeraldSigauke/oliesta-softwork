@@ -9,7 +9,7 @@ const ContactPage = () => {
     <>
       {/* <NavbarPadding /> */}
       <motion.div 
-        class="container mt-20 px-6 mx-auto" id='contactus'
+        class="container mt-20 mb-20 px-6 mx-auto" id='contactus'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}

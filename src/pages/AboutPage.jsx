@@ -6,7 +6,6 @@ import AboutFastTravelComponents from '../components/AboutFastTravelComponents';
 const AboutPage = () => {
   return (
     <>
-        {/* <NavbarPadding /> */}
         <div id="content" className=""></div>
         <ContentComponent />
         <ReasonsComponent />
